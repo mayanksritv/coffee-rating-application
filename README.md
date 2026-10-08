@@ -4,7 +4,7 @@ An interactive voting application with database-backed vote counts, live UI upda
 
 ## Live Demo
 
-**Live Web App:** https://coffee-rating-application-abc1.onrender.com
+**Live Web App:** https://coffee-rating-application-akyf.onrender.com/
 
 ## Features
 
