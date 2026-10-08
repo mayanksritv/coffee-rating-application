@@ -2,6 +2,10 @@
 
 An interactive voting application with database-backed vote counts, live UI updates, and a top-rated leaderboard.
 
+## Live Demo
+
+**Live Web App:** https://coffee-rating-application-abc1.onrender.com
+
 ## Features
 
 - Coffee/product grid
