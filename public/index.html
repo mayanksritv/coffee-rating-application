@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Rating Application</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">LIVE VOTING</span>
+      <h1>Coffee Rating Application</h1>
+      <p>Vote for your favorite coffee blend and watch the leaderboard update instantly.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-heading">
+      <div>
+        <h2>Choose your favorite</h2>
+        <p id="status">Loading coffees...</p>
+      </div>
+    </section>
+
+    <section id="coffeeGrid" class="coffee-grid" aria-live="polite"></section>
+
+    <section class="leaderboard-section">
+      <div class="section-heading">
+        <div>
+          <h2>Top-rated leaderboard</h2>
+          <p>Highest vote counts appear first.</p>
+        </div>
+      </div>
+      <div id="leaderboard" class="leaderboard" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Built with HTML, CSS, JavaScript, Node.js, Express and MongoDB.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
